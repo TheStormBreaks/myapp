@@ -1,0 +1,19 @@
+my-app/
+├── node_modules/              # Dependencies installed by npm
+├── public/                    # Public files
+│   └── index.html             # HTML file for the React app
+├── src/                       # Source code for the application
+│   ├── components/            # Directory for React components
+│   │   ├── Header.js          # Header component
+│   │   ├── Body.js            # Body component
+│   │   ├── ScanDashboard.js   # ScanDashboard component
+│   │   └── Header.css         # Styles for Header component
+│   ├── App.js                 # Main application component
+│   ├── App.css                # Styles for App component
+│   ├── index.js               # Entry point for React app
+│   ├── index.css              # Global styles
+│   └── ...                    # Other potential files
+├── .gitignore                 # Specifies files and directories to ignore in Git
+├── package.json               # Project metadata and dependencies
+├── package-lock.json          # Dependency lock file
+└── README.md                  # Project documentation

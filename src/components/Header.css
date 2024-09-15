@@ -1,0 +1,22 @@
+/* src/components/Header.css */
+
+.App-header {
+    background-color: #282c34; /* Dark background color */
+    min-height: 60px; /* Minimum height for the header */
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    color: white; /* Text color */
+    font-size: 1.5em; /* Font size */
+    padding: 20px; /* Padding inside the header */
+    border-bottom: 2px solid #61dafb; /* Bottom border with color */
+  }
+  
+  /* Optional: Add media query for responsiveness */
+  @media (max-width: 600px) {
+    .App-header {
+      font-size: 1.2em; /* Smaller font size on smaller screens */
+      padding: 10px; /* Less padding on smaller screens */
+    }
+  }
+  
